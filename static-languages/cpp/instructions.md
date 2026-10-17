@@ -4,7 +4,7 @@
 Windows Terminal (Can also use Windows Powershell, etc...)
 
 ## MSVC Command:
-g++ cppclass.cpp cppclass.h -o cppclass.exe
+"g++ cppclass.cpp cppclass.h -o cppclass.exe"
 
-## Run:
-./ cppclass.exe
+## Run Command:
+"./ cppclass.exe"
