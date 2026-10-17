@@ -10,9 +10,13 @@ Modified: 10/17/2026
 
 */
 
+// Include cpp standard library iostream class for input and output (std and cout)
 #include <iostream>
+
+// Include class being used; Must be in same directory.
 #include "cppclass.h"
 
+// Entry point of program!
 int main() {
   
   // Creates object of cppclass type with default constructor
