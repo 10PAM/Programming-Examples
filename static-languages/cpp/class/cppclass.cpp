@@ -20,13 +20,13 @@ Modified: 10/17/2026
 int main() {
   
   // Creates object of cppclass type with default constructor
-  cppclass o_cppclass = new cppclass();
+  cppclass o_cppclassA();
 
   // Creates object of cppclass type with defined constructor
-  cppclass o_cppclass = new cppclass(4);
+  cppclass o_cppclassB(4);
 
   // Creates subchild-object of cppclass_child type with defined constructor
-  cppclass o_cppclass = new cppclass_child(4, 5);
+  cppclass_child o_cppclassC(4, 5);
 
   // Adds two numbers using static class
   std::cout << s_cppclass.one + s_cppclass.two << std::endl;
