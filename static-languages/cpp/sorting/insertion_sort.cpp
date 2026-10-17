@@ -19,11 +19,6 @@ int main() {
      Average: O(n^2)
      Best: O(n)
    }
-
-   Applications {
-     Large data set = BAD
-     Small data sets = Okay
-   }
   */
   for (int i = 1; i < (sizeof(unsorted)/sizeof(unsorted[0])); ++i) {
     // Keeps track of current index
