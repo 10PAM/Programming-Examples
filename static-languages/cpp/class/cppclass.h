@@ -14,7 +14,7 @@ Modified: 10/17/2026
 class cppclass {
   // Public fields: accessible outside of class
   public:
-    int sales;
+    int sales = 0;
     int* salesp = &sales;
 
     // Default Constructor: Called when cppclass object is created with no parameters.
@@ -42,12 +42,21 @@ class cppclass_child : cppclass {
 
   public:
     int profit = 0;
+
+    // Child defined constructor
     cppclass_child(int sales, int profit) {
       // Initializes parent class (always called first in sub-classes by default as super() if not specified)
       super(sales);
       // Not the best practie to name parameter as outer-scoped variable.
-      this.profit = profit;
+      this->profit = profit;
     }
+
+    // Default constreuctor: initializes parent with values to prevent errors.
+    cppclass_child() {
+      super(0);
+    }
+
+    // Default desctructor
     ~cppclass_child() {};
 
   private:
