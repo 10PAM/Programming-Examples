@@ -44,12 +44,12 @@ class cppclass_child : cppclass {
   private:
     int wareable = 0;
   cppclass_child(int sales, int profit) {
-    // Initializes parent class (always called first in sub-classes
+    // Initializes parent class (always called first in sub-classes by default as super() if not specified)
     super(sales);
     // Not the best practie to name parameter as outer-scoped variable.
     this.profit = profit;
-    
-  }; 
+  };
+  ~cppclass_child() {};
 }
 
 // Static class; Fields must be static and defined given that an object cannot be created of this.
