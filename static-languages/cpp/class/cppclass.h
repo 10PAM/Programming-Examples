@@ -43,18 +43,14 @@ class cppclass_child : cppclass {
   public:
     int profit = 0;
 
-    // Child defined constructor
-    cppclass_child(int sales, int profit) {
-      // Initializes parent class (always called first in sub-classes by default as super() if not specified)
-      super(sales);
+    // Child defined constructor. Initializes parent class (always called first in sub-classes by default as super() if not specified)
+    cppclass_child(int sales, int profit) : cppclass(sales) {
       // Not the best practie to name parameter as outer-scoped variable.
       this->profit = profit;
     }
 
     // Default constreuctor: initializes parent with values to prevent errors.
-    cppclass_child() {
-      super(0);
-    }
+    cppclass_child() : cppclass(0) {}
 
     // Default desctructor
     ~cppclass_child() {};
@@ -64,11 +60,11 @@ class cppclass_child : cppclass {
 };
 
 // Static class; Fields must be static and defined given that an object cannot be created of this.
-static class s_cppclass {
+class s_cppclass {
   // NOTE: Fields are declared static in a "static" class
   public:
-    static int one = 1;
-    static int two = 2;
+    static const int one = 1;
+    static const int two = 2;
 
   // No constructor or descructor because we can't create a static class object.
   private:
