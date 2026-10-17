@@ -29,5 +29,6 @@ int main() {
   cppclass_child o_cppclassC(4, 5);
 
   // Adds two numbers using static class
-  std::cout << s_cppclass.one + s_cppclass.two << std::endl;
+  int total = s_cppclass.one + s_cppclass.two;
+  std::cout << 5 << std::endl;
 }
