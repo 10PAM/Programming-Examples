@@ -1,7 +1,13 @@
 /*
-  Programmers {
-  
-  }
+
+Programmers {
+  Mario Aguilera Piceno
+}
+File: class.cpp
+About: Program that outputs: "Hello World!"
+Date: 10/17/2026
+Modified: 10/17/2026
+
 */
 
 #include <iostream>
