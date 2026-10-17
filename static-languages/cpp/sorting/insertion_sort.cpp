@@ -26,8 +26,10 @@ int main() {
    }
   */
   for (int i = 1; i < (sizeof(unsorted)/sizeof(unsorted[0])); ++i) {
+    // Keeps track of current index
     int j = i;
 
+    // Iterates in left until bigger element is found, then swaps 
     while(j > 0 && unsorted[j] < unsorted[j - 1]) {
       int temp = unsorted[j];
       unsorted[j] = unsorted[j - 1];
