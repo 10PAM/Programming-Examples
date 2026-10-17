@@ -1,5 +1,13 @@
 /*
 
+Programmers {
+  Mario Aguilera Piceno
+}
+File: insertion_sort.cpp
+About: Program that performs insertion sort.
+Date: 10/17/2026
+Modified: 10/17/2026
+
 */
 #include <iostream>
 
