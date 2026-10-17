@@ -3,7 +3,7 @@
 Programmers {
   Mario Aguilera Piceno
 }
-File: hellp.lua
+File: hello.lua
 About: Program that outputs: "Hello World!"
 Date: 10/17/2026
 Modified: 10/17/2026
