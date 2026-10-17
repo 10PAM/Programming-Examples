@@ -3,8 +3,8 @@
 Programmers {
   Mario Aguilera Piceno
 }
-File: class.cpp
-About: Program that outputs: "Hello World!"
+File: cppclass.cpp
+About: Program that briefly explains and uses classes.
 Date: 10/17/2026
 Modified: 10/17/2026
 
