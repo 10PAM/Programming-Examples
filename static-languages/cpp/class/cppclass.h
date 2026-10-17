@@ -29,12 +29,12 @@ class cppclass {
     sales = currentSales;
     // Can also use "this" to signify this specific object
     this.sales = currentSales;
-  };
+  }
 
   // Destructor: Deallocates memory; Called when class goes out of scope; Delete any pointers here!
   ~cppclass() {
     delete salesp;
-  };
+  }
 }
 
 // subclsas of cppclass; Inherits fields of parent class.
@@ -48,7 +48,7 @@ class cppclass_child : cppclass {
     super(sales);
     // Not the best practie to name parameter as outer-scoped variable.
     this.profit = profit;
-  };
+  }
   ~cppclass_child() {};
 }
 
@@ -57,4 +57,5 @@ static class s_cppclass {
   public:
     static int one = 1;
     static int two = 2;
+  // No constructor or descructor because we can't create a static class object.
 }
