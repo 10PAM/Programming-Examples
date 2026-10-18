@@ -24,14 +24,14 @@ On a basic level, memory data types are containers of data stored in a memory ad
 Given: 00010001  => 2^4 + 2^0 = 5  
 
 <kbd alin="center">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="7">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="6">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="5">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="10" height="10" border="0" alt="4">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="3">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="2">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="10" height="10" border="0" alt="1">
-    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="10" height="10" border="0" alt="0">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="7">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="6">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="5">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="20" height="20" border="0" alt="4">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="3">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="2">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="1">
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="20" height="20" border="0" alt="0">
 </kbd>
 <-- 7 to 0 (where each left is the position index) --
 
