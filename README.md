@@ -1,7 +1,7 @@
 # Programming Examples and References
 Based on my understanding of computer programming.
 
-## Terms
+## Programming Terms
 Array => Assortment of data stored in a single (linear) row.\
 Variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.\
 Pointer => Variable reference that points to a specified variable.\
@@ -44,3 +44,17 @@ Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F 
   - Example (Hexa-decimal to Binary): 0xabf1 {
   -   0x = Declaring a hexa-decimal number's start (is not value-specific).
   - }
+
+# Data Structures
+Date structures are essentially what the name implies: Ways of structuring data. These, in the current year (2026), are represented in two types (along with special types of these two types):
+Linear data structures {
+  - Matrixes. Ex: {{1, 2, 3}, {4, 5 , 6}}
+
+    Special Structures {
+      Matrixes (Rows and Columns of Linear )
+    }
+}
+Non-linear data structures {
+}
+# Mathematical Terms and Notations (Listed from Least to Most Significant Descending Order)
+  - 
