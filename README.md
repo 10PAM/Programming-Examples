@@ -9,12 +9,12 @@ Pointer => Variable reference that points to a specified variable.\
 ## Memory Types
 On a basic level, memory data types are containers of data stored in a memory within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data.\
 Fundamental Memory Sizes {  
-&nbsp;- bit = data represented as either 0 or 1.
-&nbsp;- byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
+- bit = data represented as either 0 or 1.
+- byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
 }  
 Fundamental Memory Representation (Binary) {  
-&nbsp;- bits are multiplied by 2^index-position
-&nbsp;- Index position starts at 0  
+- bits are multiplied by 2^index-position
+- Index position starts at 0  
 }  
 Memory Sizes' Representation in Programming Languages {
     Assembly (Windows x86-64) { \
