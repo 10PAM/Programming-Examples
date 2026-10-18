@@ -14,21 +14,21 @@ Fundamental Memory Sizes {
 }\
 Fundamental Memory Representation (Binary) {
   - bits are multiplied by 2^index-position
-  - Index position starts at 0
+  - Index position starts at 0\
 }\
 Memory Sizes' Representation in Programming Languages {
-    Assembly (Windows x86-64) {
+    Assembly (Windows x86-64) {\
       - db (define byte) = 1 byte = 8 bits
       - dw (define word) = 2 bytes = 16 bits
       - dd (define double word) = 4 bytes = 32 bits
-      - dq (define quad word) = 8 bytes = 64 bits
-    }
-    C++ {
+      - dq (define quad word) = 8 bytes = 64 bits\
+    }\
+    C++ {\
       - char = 1 byte = 8 bits
       - short = 2 bytes = 16 bits
       - int & long = 4 bytes = 32 bits
-      - long long = 8 bytes = 64 bits
-    }
+      - long long = 8 bytes = 64 bits\
+    }\
 }\
 Binary (base-2): .\
   - Example: (8 bit data section): 00000010 = 2^1 = 2. Right-most position (index) = 0; Left-most position (index) = 7. \
