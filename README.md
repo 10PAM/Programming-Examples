@@ -20,8 +20,9 @@ byte = 8 bits (stored linearly from right to left as 1's and or 0's).
 bits are multiplied by 2^(index-position)  
 Index position starts at 0 (rightmost bit) and increments left from there: <--.  
 
-## Memory Representation Example (A Byte)
-Given: 00010001  => 2^4 + 2^0 = 5  
+## Memory Representation Example (A Byte) | Given Binary: 00010001
+00010001 => 2^4 + 2^0 = 5  
+- Essentially, add the total value of bits after multiplying the bit times 2^(index). Formula: (bit (0 or 1) * 2^(index)).  
 
 <kbd alin="center">
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="7">
