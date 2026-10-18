@@ -62,7 +62,7 @@ Index position starts at 0 (rightmost bit) and increments left from there: <--.
 
 ### Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12, d = 13, e = 14, f = 15.
 - 0x = Declaring a hexa-decimal number's start (is not value-specific).
-- 1 hexadecimal digit is 4 bits (a nibble)
+- 1 hexadecimal digit is 4 bits (a nibble); 2 hexadecimal digits form 1 byte.
 - Like any value representation, it is calculated right to left.
 - Example:
     - Format of Hexadecimal Values of Size 1 Byte
@@ -70,7 +70,7 @@ Index position starts at 0 (rightmost bit) and increments left from there: <--.
         - 0x0a => 0xa = (10 * 16^0) = 10
     - Format of Hexadecimal Values of Size 2 Bytes
         - 0xabf1 => 0xabf1
-        - 0xabf2 => 0x100abf2
+        - 0x00f2 => 0xf2
     - Format of Hexadecimal Values of Size 4 Bytes
         - 0x0000abf1 => 0xabf1
         - 0x0100abf2 => 0x100abf2
