@@ -32,7 +32,8 @@ Given: 00010001  => 2^4 + 2^0 = 5
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="2">
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="1">
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="20" height="20" border="0" alt="0">
-</kbd>
+</kbd>  
+
 <-- 7 to 0 (where each left is the position index) --
 
 ## Memory Sizes' Representation in Programming Languages
