@@ -10,15 +10,15 @@ Variable => Section of data (either explicitly or implicitly type-defined depend
 Pointer => Variable reference that points to a specified variable.  
 
 ## Memory Types
-On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern computer systems hardware-to-software architecture is at 64-bit (Previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary) since their electrical inception.
+On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern electrical computer systems' hardware-to-software architecture is at 64-bit (previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary) since their inception given its convenience.
 
-## Fundamental Memory Sizes
+## Fundamental Data Types and Data Sizes
 - bit = data represented as either 0 or 1.
 - byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
 
-## Fundamental Memory Representation (Binary)
+## Fundamental Data-to-Value Representation (Binary)
 - bits are multiplied by 2^(index-position)
-- Index position starts at 0 and goes from right to left: <--.
+- Index position starts at 0 (rightmost bit) and increments left from there: <--.
 
 ## Memory Representation Example (A Byte)
 Given: 00010001  => 2^4 + 2^0 = 5  
