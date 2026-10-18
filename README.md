@@ -17,8 +17,8 @@ bit = data represented as either 0 or 1.
 byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
 
 ## Fundamental Data-to-Value Representation (Binary)
-- bits are multiplied by 2^(index-position)
-- Index position starts at 0 (rightmost bit) and increments left from there: <--.
+bits are multiplied by 2^(index-position)  
+Index position starts at 0 (rightmost bit) and increments left from there: <--.  
 
 ## Memory Representation Example (A Byte)
 Given: 00010001  => 2^4 + 2^0 = 5  
