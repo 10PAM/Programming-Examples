@@ -2,7 +2,7 @@
 Author: Mario Aguilera Piceno  
 Created: 10/18/2026  
 Modified: 10/18/2026  
-About: Based on my understanding of computer programming.  
+About: Based on my understanding of computer programming.
 
 ## Programming Terms
 Array => Assortment of data stored in a single (linear) row.\
