@@ -31,12 +31,12 @@ Memory Sizes' Representation in Programming Languages {
     }
 }\
 Binary (base-2): .\
-  - Example: (8 bit data section): 00000010 = 2^1 = 2. Right-most position (index) = 0; Left-most position (index) = 7. 
+  - Example: (8 bit data section): 00000010 = 2^1 = 2. Right-most position (index) = 0; Left-most position (index) = 7. \
 Decimal (base-10): Data displayed in real number (digits and decimal) format that is retrieved when adding all binary bits together.
   - Example (Binary to Decimal): 0010 = 1 * 2^1 = 2.
   - Example (Binary to 32-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
   - Example (Binary to 64-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
-  2 = *1* (remainder) ... 1 / 2 = *1* (remainder). Terminates when decimal is no longer > 0. Total: 0001000000011
+  2 = *1* (remainder) ... 1 / 2 = *1* (remainder). Terminates when decimal is no longer > 0. Total: 0001000000011\
 Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12 ... f = 15
   - 0x = Declaring a hexa-decimal number's start (is not value-specific).
   - Example (Hexadecimal Value Format): 0xabf1
@@ -48,12 +48,11 @@ Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F 
 # Data Structures
 Date structures are essentially what the name implies: Ways of structuring data. These, in the current year (2026), are represented in two types (along with special types of these two types):
 Linear data structures {
-  - Matrixes. Ex: {{1, 2, 3}, {4, 5 , 6}}
-
+  - Matrixes. Ex: {{1, 2, 3}, {4, 5 , 6}}\
     Special Structures {
       Matrixes (Rows and Columns of Linear )
-    }
-}
+    }\
+}\
 Non-linear data structures {
 }
 # Mathematical Terms and Notations (Listed from Least to Most Significant Descending Order)
