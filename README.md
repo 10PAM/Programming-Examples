@@ -23,7 +23,7 @@ Index position starts at 0 (rightmost bit) and increments left from there: <--.
 ## Memory Representation Example (A Byte) | Given Binary: 00010001
 00010001 => 2^4 + 2^0 = 5  
 - Essentially, add the total value of bits after multiplying the bit times 2^(index). Formula: (bit (0 or 1) * 2^(index)).
-- The sum from $i = 0$ to $n$, where n is number of bits is $\sum_{i=0}^{n - 1} bit-value * 2^i$.
+- Assuming BitValue is (0 or 1): The sum from $i = 0$ to $n$, where n is number of bits is $\sum_{i=0}^{n - 1} BitValue * 2^i$.
 
 <kbd alin="center">
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/zero.png" width="20" height="20" border="0" alt="7">
