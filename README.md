@@ -23,7 +23,7 @@ On a basic level, memory data types are containers of data stored in a memory ad
 ## Memory Representation Example (A Byte)
 Given: 00010001  => 2^4 + 2^0 = 5  
 <kbd alin="center">
-    <img src="https://github.com/10PAM/Programming-Examples/blob/aca9b95f6e5bce3ec733b5c5e1f56955478f4e54/assets/images/s_g.png" width="40" height="40" border="0" alt="7"><span>0</span>
+    <p><img src="https://github.com/10PAM/Programming-Examples/blob/aca9b95f6e5bce3ec733b5c5e1f56955478f4e54/assets/images/s_g.png" width="40" height="40" border="0" alt="7">0</p>
 </kbd>
 
 ## Memory Sizes' Representation in Programming Languages
