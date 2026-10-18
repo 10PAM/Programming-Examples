@@ -2,7 +2,7 @@
 Based on my understanding of computer programming.
 
 ## Terms
-array => Assortment of data stored in a single (linear) row.
+array => Assortment of data stored in a single (linear) row. 
 variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.
 
 ## Memory Types
