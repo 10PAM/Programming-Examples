@@ -34,7 +34,8 @@ Given: 00010001  => 2^4 + 2^0 = 5
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="20" height="20" border="0" alt="0">
 </kbd>  
 
-<--(END) 7 to 0 (START)--<<
+### Position (Right to Left):  
+<--(END) 7, 6, 5, 4, 3, 2, 1, 0 (START)--<<
 
 ## Memory Sizes' Representation in Programming Languages
 - ### Assembly (Windows x86-64)
