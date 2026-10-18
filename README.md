@@ -10,7 +10,7 @@ Variable => Section of data (either explicitly or implicitly type-defined depend
 Pointer => Variable reference that points to a specified variable.  
 
 ## Memory Types
-On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data.\
+On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern computer systems hardware-to-software architecture is at 64-bit (Previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary).
 
 ## Fundamental Memory Sizes
 - bit = data represented as either 0 or 1.
@@ -56,9 +56,20 @@ Given: 00010001  => 2^4 + 2^0 = 5
   - Example (Binary to 32-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
   - Example (Binary to 64-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
 
-### Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12 ... f = 15
+### Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12, d = 13, e = 14, f = 15.
 - 0x = Declaring a hexa-decimal number's start (is not value-specific).
-- Example (Hexadecimal Value Format): 0xabf1
+- 1 hexadecimal digit is 4 bits (a nibble)
+- Like any value representation, it is calculated right to left.
+- Example:
+    - Format of Hexadecimal Values of Size 1 Byte
+        - 0xf1 => 0xf1 = (15 * 16^1) + (1 * 16^0) = 241
+        - 0x0a => 0xa = (10 * 16^0) = 10
+    - Format of Hexadecimal Values of Size 2 Bytes
+        - 0xabf1 => 0xabf1
+        - 0xabf2 => 0x100abf2
+    - Format of Hexadecimal Values of Size 4 Bytes
+        - 0x0000abf1 => 0xabf1
+        - 0x0100abf2 => 0x100abf2
 - Broken down into binary nibbles (4 binary bits) per letter or digit.
 - Example (Hexa-decimal to Binary): 0xabf1
 
