@@ -3,7 +3,7 @@
 Programmers {
   Mario Aguilera Piceno
 }
-File: merge_sort.cpp
+File: bubble_sort.cpp
 About: Program that performs insertion sort.
 Date: 10/18/2026
 Modified: 10/18/2026
