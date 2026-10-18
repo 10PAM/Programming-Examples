@@ -1,13 +1,13 @@
 # Programming Examples and References
 Author: Mario Aguilera Piceno  
+About: An overview of my understanding of computer programming.  
 Created: 10/18/2026  
-Modified: 10/18/2026  
-About: Based on my understanding of computer programming.
+Modified: 10/18/2026
 
 ## Programming Terms
-Array => Assortment of data stored in a single (linear) row.\
-Variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.\
-Pointer => Variable reference that points to a specified variable.\
+Array => Assortment of data stored in a single (linear) row.  
+Variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.  
+Pointer => Variable reference that points to a specified variable.  
 
 ## Memory Types
 On a basic level, memory data types are containers of data stored in a memory within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data.\
@@ -16,8 +16,12 @@ Fundamental Memory Sizes
 - byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
 
 ## Fundamental Memory Representation (Binary)
-- bits are multiplied by 2^index-position
-- Index position starts at 0
+- bits are multiplied by 2^(index-position)
+- Index position starts at 0 and goes from right to left: <--.
+
+## Memory Representation Example (A Byte)
+Given: 00010001
+Value: 2^4 + 2^0 = 5
 
 ## Memory Sizes' Representation in Programming Languages
 - Assembly (Windows x86-64)
