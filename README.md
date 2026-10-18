@@ -22,7 +22,16 @@ On a basic level, memory data types are containers of data stored in a memory ad
 
 ## Memory Representation Example (A Byte)
 Given: 00010001  => 2^4 + 2^0 = 5  
-
+<kbd alin="center">
+    <a href="https://www.piceno.dev/"><img src="https://www.piceno.dev/images/Logo_Main.png" width="40" height="40" border="0" alt="Piceno"></a>
+    <a href="https://www.linkedin.com/in/mario-aguilera-piceno"><img src="https://www.piceno.dev/images/Linked_In.png" width="40" height="40" border="0" alt="LinkedIn"></a>
+    <a href="https://www.piceno.dev/mario/pages/career/cv/"><img src="https://www.piceno.dev/images/pages/mario/CV.png" width="40" height="40" border="0" alt="Curriculum Vitae"></a>
+    <a href="mailto:contact@piceno.dev"><img src="https://www.piceno.dev/images/Gmail.png" width="40" height="40" border="0" alt="Email"></a>
+    <a href="https://www.instagram.com/yoo.mario"><img src="https://www.piceno.dev/images/Instagram.png" width="40" height="40" border="0" alt="Instagram"></a>
+    <a href="https://www.facebook.com/01MAP"><img src="https://www.piceno.dev/images/Facebook.png" width="40" height="40" border="0" alt="Facebook"></a>
+    <a href="https://www.youtube.com/@DoctorHollowX"><img src="https://www.piceno.dev/images/YouTube.png" width="40" height="40" border="0" alt="YouTube"></a>
+    <a href="https://www.patreon.com/PicenoLLC/"><img src="https://www.piceno.dev/images/Patreon.jpg" width="40" height="40" border="0" alt="Patreon"></a>
+</kbd>
 
 ## Memory Sizes' Representation in Programming Languages
 - ### Assembly (Windows x86-64)
