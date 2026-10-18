@@ -3,7 +3,9 @@ Author: Mario Aguilera Piceno
 Created: 10/18/2026  
 Modified: 10/18/2026  
 About: An overview of my understanding of computer programming.
-<img width="280" height="70" alt="OSBAIC" src="https://github.com/user-attachments/assets/6395522c-b7c1-4331-8ac3-8d6f90369bb6">  
+<div align="left">
+<img width="280" height="70" alt="OSBAIC" src="https://github.com/user-attachments/assets/6395522c-b7c1-4331-8ac3-8d6f90369bb6">
+</div>  
 <p>Open Source Brings About Innovative Changes</p>
 
 ## Programming Terms
