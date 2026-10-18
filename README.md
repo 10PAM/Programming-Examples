@@ -1,8 +1,8 @@
 # Programming Examples and References
 Author: Mario Aguilera Piceno  
-About: An overview of my understanding of computer programming.  
 Created: 10/18/2026  
 Modified: 10/18/2026
+About: An overview of my understanding of computer programming.  
 
 ## Programming Terms
 Array => Assortment of data stored in a single (linear) row.  
