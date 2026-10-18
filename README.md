@@ -24,7 +24,8 @@ On a basic level, memory data types are containers of data stored in a memory ad
 Given: 00010001  => 2^4 + 2^0 = 5  
 
 <kbd alin="center">
-    <span><img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/s_g.png" width="40" height="40" border="0" alt="7">0</span>
+    <p>0</p>
+    <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="40" height="40" border="0" alt="7">
 </kbd>
 
 ## Memory Sizes' Representation in Programming Languages
