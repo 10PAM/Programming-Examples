@@ -21,8 +21,8 @@ On a basic level, memory data types are containers of data stored in a memory ad
 - Index position starts at 0 and goes from right to left: <--.
 
 ## Memory Representation Example (A Byte)
-Given: 00010001
-Value: 2^4 + 2^0 = 5
+Given: 00010001  => 2^4 + 2^0 = 5  
+
 
 ## Memory Sizes' Representation in Programming Languages
 - ### Assembly (Windows x86-64)
