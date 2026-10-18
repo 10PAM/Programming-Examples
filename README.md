@@ -1,7 +1,7 @@
 # Programming Examples and References
 Author: Mario Aguilera Piceno  
 Created: 10/18/2026  
-Modified: 10/18/2026
+Modified: 10/18/2026  
 About: An overview of my understanding of computer programming.  
 
 ## Programming Terms
