@@ -10,7 +10,7 @@ Variable => Section of data (either explicitly or implicitly type-defined depend
 Pointer => Variable reference that points to a specified variable.  
 
 ## Memory Types
-On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern computer systems hardware-to-software architecture is at 64-bit (Previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary).
+On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern computer systems hardware-to-software architecture is at 64-bit (Previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary) since their electrical inception.
 
 ## Fundamental Memory Sizes
 - bit = data represented as either 0 or 1.
