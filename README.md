@@ -13,18 +13,18 @@ Array => Assortment of data stored in a single (linear) row.
 Variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.  
 Pointer => Variable reference that points to a specified variable.  
 
-## Memory Types
+## Memory Types (Section 1.0)
 On a basic level, memory data types are containers of data stored in a memory address within your physical RAM module after being translated from a logical address. (Assembly is a good way to understand higher-level programming languages). Data types can be stored and broke-down in different formats (most used is hexadecimal format); although, this too is broken down into binary (base-2) when translating data. Modern electrical computer systems' hardware-to-software architecture is at 64-bit (previously 32-bit, 16-bit, and 8-bit). Central Processing Units (CPUs) have been optimized around powers of 2 (binary) since their inception given its convenience.
 
-## Fundamental Data Types and Data Sizes
+### Fundamental Data Types and Data Sizes
 bit = data represented as either 0 or 1.  
 byte = 8 bits (stored linearly from right to left as 1's and or 0's).  
 
-## Fundamental Data-to-Value Representation (Binary)
+### Fundamental Data-to-Value Representation (Binary)
 bits are multiplied by 2^(index-position)  
 Index position starts at 0 (rightmost bit) and increments left from there: <--.  
 
-## Memory Representation Example (A Byte) | Given Binary: 00010001
+### Memory Representation Example (A Byte) | Given Binary: 00010001
 00010001 => 2^4 + 2^0 = 5  
 - Essentially, add the total value of bits after multiplying the bit times 2^(index). Formula: (bit (0 or 1) * 2^(index)).
 - The sum from $i = 0$ to $n$, where n is the position of the most-significant bit and BitValue is the digit value of the bit (0 or 1) is $\sum_{i=0}^{n} (BitValue * 2^i)$.
@@ -40,31 +40,31 @@ Index position starts at 0 (rightmost bit) and increments left from there: <--.
     <img src="https://raw.githubusercontent.com/10PAM/Programming-Examples/master/assets/images/one.png" width="20" height="20" border="0" alt="0">
 </kbd>  
 
-### Position (Right to Left); Position AKA "index":  
+#### Position (Right to Left); Position AKA "index":  
 <--(END) 7, 6, 5, 4, 3, 2, 1, 0 (START)--<<
 
-## Memory Sizes' Representation in Programming Languages
-- ### Assembly (Windows x86-64)
+### Memory Sizes' Representation in Programming Languages
+- #### Assembly (Windows x86-64)
     - db (define byte) = 1 byte = 8 bits
     - dw (define word) = 2 bytes = 16 bits
     - dd (define double word) = 4 bytes = 32 bits
     - dq (define quad word) = 8 bytes = 64 bits
-- ### C++
+- #### C++
     - char = 1 byte = 8 bits
     - short = 2 bytes = 16 bits
     - int & long = 4 bytes = 32 bits
     - long long = 8 bytes = 64 bits
 
-## Base Systems
-### Binary (base-2): Most fundamental data representation (Premise of machine code).
+### Base Systems
+#### Binary (base-2): Most fundamental data representation (Premise of machine code).
   - Example: (8 bit data section): 00000010 = 2^1 = 2. Right-most position (index) = 0; Left-most position (index) = 7.
 
-### Decimal (base-10): Data displayed in real number (digits and decimal) format that is retrieved when adding all binary bits together.
+#### Decimal (base-10): Data displayed in real number (digits and decimal) format that is retrieved when adding all binary bits together.
   - Example (Binary to Decimal): 0010 = 1 * 2^1 = 2.
   - Example (Binary to 32-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
   - Example (Binary to 64-bit Decimal Float): 1.0010 = 2^1 + 2^-3 = 2.125
 
-### Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12, d = 13, e = 14, f = 15.
+#### Hexadecimal (base-16): Data stored in the form of digits (0-9) and letters (A-F or a-f), where a = 10, b = 11, c = 12, d = 13, e = 14, f = 15.
 - 0x = Declaring a hexa-decimal number's start (is not value-specific).
 - 1 hexadecimal digit is 4 bits (a nibble); 2 hexadecimal digits form 1 byte.
 - Like any value representation, it is calculated right to left.
