@@ -8,7 +8,7 @@ About: An overview of my understanding of computer programming.
 </div>  
 <p>Open Source Brings About Innovative Changes</p> 
 
-## Programming Terms
+## Programming Terms (Section 0.0)
 Array => Assortment of data stored in a single (linear) row.  
 Variable => Section of data (either explicitly or implicitly type-defined depending on programming language) located in the memory of a program.  
 Pointer => Variable reference that points to a specified variable.  
