@@ -81,7 +81,7 @@ Index position starts at 0 (rightmost bit) and increments left from there: <--.
 - Broken down into binary nibbles (4 binary bits) per letter or digit.
 - Example (Hexa-decimal to Binary): 0xabf1
 
-# Data Structures
+## Data Structures (Section 3.0)
 Date structures are essentially what the name implies: Ways of structuring data. These, in the current year (2026), are represented in two types (along with special types of these two types):
 
 ## Linear data structures 
@@ -105,5 +105,5 @@ Data structures represented in non-linear (single continuous row of data).
         - B+ Tree
 - Graphs
 
-# Mathematical Terms and Notations (Listed from Least to Most Significant Descending Order)
+## Mathematical Terms and Notations (Listed from Least to Most Significant Descending Order)
   - 
