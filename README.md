@@ -24,7 +24,7 @@ byte = 8 bits (stored linearly from right to left as 1's and or 0's).
 bits are multiplied by 2^(index-position)  
 Index position starts at 0 (rightmost bit) and increments left from there: <--.  
 
-### Memory Representation Example (A Byte) | Given Binary: 00010001
+#### Memory Representation Example (A Byte) | Given Binary: 00010001
 00010001 => 2^4 + 2^0 = 5  
 - Essentially, add the total value of bits after multiplying the bit times 2^(index). Formula: (bit (0 or 1) * 2^(index)).
 - The sum from $i = 0$ to $n$, where n is the position of the most-significant bit and BitValue is the digit value of the bit (0 or 1) is $\sum_{i=0}^{n} (BitValue * 2^i)$.
